@@ -1,0 +1,58 @@
+{"intents":[
+    {"tag":"saludos",
+        "patterns":["hola","hola que tal","wena","holi", "hola bot", "hola buenas tardes","buenas noches , aun estan repartiendo?"],
+        "responses":["Hola amig@, que tal en que te puedo ayudar","Holi amig@, en que te puedo ayudar"],
+        "context_set":""
+    },
+    {"tag":"despedida",
+        "patterns":["chao","que te valla bien", "de ahi nos vemos", "chai", "que te valla estupendo", "estamos hablando", "dale gracias"],
+        "responses":["chao amig@ hablamos me avisas si tienes otra duda"],
+        "context_set":""
+    },
+    {"tag":"tiempo",
+        "patterns":["cuanto es el tiempo de demora?", "cuanto se demorar?, en cuanto tiempo?, en cuanto llega?"],
+        "responses":["aproximadamente 30 min amig@"],
+        "context_set":""
+    },
+    {"tag":"encargar",
+        "patterns":["quisiera encargar", "quiero pedir", "voy a encargar", "pedire unas promociones"],
+        "responses":["buena te adjunto el numero de alejandra +56956111111 es quien te atendera para confirmar el pedido, gracias :)"],
+        "context_set":""
+    },
+    {"tag":"promo",
+        "patterns":["que promociones tiene?","que promo tiene hoy","promos", "quiero preguntar por una promocion","necesito una promocion de sushi" ],
+        "responses":["generando menu..."],
+        "context_set":""
+    },
+    {"tag":"menu",
+        "patterns":["quiero pedir un menu de sushi", "necesito un menu de sushi"],
+        "responses":["Generando menu promo1.png y promo2.png...."],
+        "context_set":""
+    },
+    {"tag":"hot",
+        "patterns":["y alguna opcion frita ?","si tiene rolls fritos","promociones solo piezas hot", "promociones de handroll hot", "tiene solo fritos"],
+        "responses":["Generando menu promo2.png...."],
+        "context_set":""
+    },
+    {"tag":"oferta",
+        "patterns":["ofertas", "que ofertas tiene", "tipo de ofertas"],
+        "responses":["tenemos 2 handroll por $5.000, 40 piezas de hot a $10.000 o 50 piezas vegii a $12.000 solo por este mes"],
+        "context_set":""
+    },
+    {"tag":"cambio",
+        "patterns":["puedo cambiar un producto"],
+        "responses":[" obvio, solo tienes que indicar que es lo que quieres cambiar y a cual promo a alejandra(+5695611111)"],
+        "context_set":""
+    },
+    {"tag":"cierre",
+        "patterns":["hasta que hora atiende?", "cual es la hora de cierre de su local"],
+        "responses":[" el local cierra a la media noche, osea a la 12 pm"],
+        "context_set":""
+    },
+    {"tag":"apertura",
+        "patterns":["a que hora empiza a atender mañana", "a que hora abre", "su horario de apertura", "quiero saber el horario de apertura","hiorario"],
+        "responses":["Empezamos a atender desde las 18hrs"],
+        "context_set":""
+    }
+]
+}
